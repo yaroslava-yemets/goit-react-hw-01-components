@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
 import FriendListItem from './FriendListItem';
+import './FriendList.css';
 
 function FriendList({friends}) {
     return (
-        <ul className="friend-list">
+        <ul className="FriendList">
             <FriendListItem friends={friends} />
         </ul>
     )

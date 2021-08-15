@@ -1,0 +1,55 @@
+.Profile {
+  background-color: #d1f2f6;
+}
+
+.Profile__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  max-width: 300px;
+  padding: 30px 20px;
+  margin: 0 auto;
+}
+
+.user__avatar {
+  width: 100px;
+  border-radius: 50%;
+  background-position: center;
+}
+
+.user__name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.user_tag {
+  margin-bottom: 15px;
+}
+
+.user__tag,
+.user__location {
+  color: #717677;
+}
+
+.user__stats {
+  margin: 0 auto;
+  display: flex;
+  width: 300px;
+}
+
+.user__stats > li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% / 3);
+  background-color: rgb(217, 249, 250);
+  border: 1px solid rgb(93, 163, 221);
+  padding: 10px;
+}
+
+.label {
+  margin-bottom: 10px;
+}

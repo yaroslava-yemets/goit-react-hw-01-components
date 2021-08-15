@@ -1,7 +1,9 @@
 import PropTypes from 'prop-types';
+import './TransactionHistory.css';
 
 function TransactionHistory({items}) {
     return (
+    <div className="TransactionHistory">
     <table className="transaction-history">
         <thead>
             <tr>
@@ -21,6 +23,7 @@ function TransactionHistory({items}) {
             ))}
         </tbody>
     </table>
+    </div>
     )
 };
 

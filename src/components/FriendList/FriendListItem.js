@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
+import './FriendList.css';
 
 function FriendListItem({friends}) {
     return (
         friends.map(friend => (
-            <li key={friend.id} className="item">
+            <li key={friend.id} className="FriendList__item">
                 {friend.isOnline ? <span className="status green"></span> : <span className="status red"></span>}
                 <img 
                     className="avatar" 
